@@ -92,4 +92,4 @@ aggregateSet = merge(activityLabels, aggregateSet, by.x = "activity_id", by.y = 
 # remove temporary dataframes
 #############################
 
-rm(activityLabels, featuresLabels, testSubjectIds, testLabels, testSet, trainSubjectIds, trainLabels, trainSet, fullSet)
+rm(activityLabels, featuresLabels, testSubjectIds, testLabels, testSet, trainSubjectIds, trainLabels, trainSet, fullSet, meanStdSet)
