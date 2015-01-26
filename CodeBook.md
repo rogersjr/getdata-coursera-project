@@ -1,3 +1,7 @@
+## In here, you will find all the variables used in the final data set
+#### This includes the activity, the subject and 79 measurements using the accelerometer and gyroscope
+#### The data has been summarized per subject per activity
+
 * "activity_id"
   * integer
   * the activity id primary key
