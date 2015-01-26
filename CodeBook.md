@@ -1,5 +1,5 @@
 ## In here, you will find all the variables used in the final data set
-#### This includes the activity, the subject and 79 measurements using the accelerometer and gyroscope
+#### This includes activity, subject and 78 measurements using accelerometer and gyroscope
 #### The data has been summarized per subject per activity
 
 * "activity_id"
@@ -138,51 +138,237 @@
   * body gyroscope jerk standard deviation on z-axis
   
 * "tBodyAccMag-mean()"
+  * double
+  * body acceleration magnitude mean
+  
 * "tBodyAccMag-std()"
+  * double
+  * body acceleration magnitude standard deviation
+  
 * "tGravityAccMag-mean()"
+  * double
+  * gravity acceleration magnitude mean
+  
 * "tGravityAccMag-std()"
+  * double
+  * gravity acceleration magnitude standard deviation
+  
 * "tBodyAccJerkMag-mean()"
+  * double
+  * body acceleration jerk magnitude mean
+  
 * "tBodyAccJerkMag-std()"
+  * double
+  * body acceleration jerk magnitude standard deviation
+  
 * "tBodyGyroMag-mean()"
+  * double
+  * body gyroscope magnitude mean
+  
 * "tBodyGyroMag-std()"
+  * double
+  * body gyroscope magnitude standard deviation
+  
 * "tBodyGyroJerkMag-mean()"
+  * double
+  * body gyroscope jerk magnitude mean
+  
 * "tBodyGyroJerkMag-std()"
+  * double
+  * body gyroscope magnitude standard deviation
+  
 * "fBodyAcc-mean()-X"
+  * double
+  * Fast Fourier Transformation
+  * on body acceleration mean on x-axis
+  
 * "fBodyAcc-mean()-Y"
+  * double
+  * Fast Fourier Transformation
+  * on body acceleration mean on y-axis
+  
 * "fBodyAcc-mean()-Z"
+  * double
+  * Fast Fourier Transformation
+  * on body acceleration mean on z-axis
+  
 * "fBodyAcc-std()-X"
+  * double
+  * Fast Fourier Transformation
+  * on body acceleration standard deviation on x-axis
+  
 * "fBodyAcc-std()-Y"
+  * double
+  * Fast Fourier Transformation
+  * on body acceleration standard deviation on y-axis
+  
 * "fBodyAcc-std()-Z"
+  * double
+  * Fast Fourier Transformation
+  * on body acceleration standard deviation on z-axis
+  
 * "fBodyAcc-meanFreq()-X"
+  * double
+  * Fast Fourier Transformation
+  * on body acceleration frequency mean on x-axis
+  
 * "fBodyAcc-meanFreq()-Y"
+  * double
+  * Fast Fourier Transformation
+  * on body acceleration frequency mean on y-axis
+  
 * "fBodyAcc-meanFreq()-Z"
+  * double
+  * Fast Fourier Transformation
+  * on body acceleration frequency mean on z-axis
+  
 * "fBodyAccJerk-mean()-X"
+  * double
+  * Fast Fourier Transformation
+  * on body acceleration jerk mean on x-axis
+  
 * "fBodyAccJerk-mean()-Y"
+  * double
+  * Fast Fourier Transformation
+  * on body acceleration jerk mean on y-axis
+  
 * "fBodyAccJerk-mean()-Z"
+  * double
+  * Fast Fourier Transformation
+  * on body acceleration jerk mean on z-axis
+  
 * "fBodyAccJerk-std()-X"
+  * double
+  * Fast Fourier Transformation
+  * on body acceleration jerk standard deviation on x-axis
+  
 * "fBodyAccJerk-std()-Y"
+  * double
+  * Fast Fourier Transformation
+  * on body acceleration jerk standard deviation on y-axis
+  
 * "fBodyAccJerk-std()-Z"
+  * double
+  * Fast Fourier Transformation
+  * on body acceleration jerk standard deviation on z-axis
+  
 * "fBodyAccJerk-meanFreq()-X"
+  * double
+  * Fast Fourier Transformation
+  * on body acceleration jerk frequency mean on x-axis
+  
 * "fBodyAccJerk-meanFreq()-Y"
+  * double
+  * Fast Fourier Transformation
+  * on body acceleration jerk frequency mean on y-axis
+  
 * "fBodyAccJerk-meanFreq()-Z"
+  * double
+  * Fast Fourier Transformation
+  * on body acceleration jerk frequency mean on z-axis
+  
 * "fBodyGyro-mean()-X"
+  * double
+  * Fast Fourier Transformation
+  * on body gyroscope mean on x-axis
+  
 * "fBodyGyro-mean()-Y"
+  * double
+  * Fast Fourier Transformation
+  * on body gyroscope mean on y-axis
+  
 * "fBodyGyro-mean()-Z"
+  * double
+  * Fast Fourier Transformation
+  * on body gyroscope mean on z-axis
+  
 * "fBodyGyro-std()-X"
+  * double
+  * Fast Fourier Transformation
+  * on body gyroscope standard deviation on x-axis
+  
 * "fBodyGyro-std()-Y"
+  * double
+  * Fast Fourier Transformation
+  * on body gyroscope standard deviation on y-axis
+  
 * "fBodyGyro-std()-Z"
+  * double
+  * Fast Fourier Transformation
+  * on body gyroscope standard deviation on z-axis
+  
 * "fBodyGyro-meanFreq()-X"
+  * double
+  * Fast Fourier Transformation
+  * on body gyroscope frequency mean on x-axis
+  
 * "fBodyGyro-meanFreq()-Y"
+  * double
+  * Fast Fourier Transformation
+  * on body gyroscope frequency mean on y-axis
+  
 * "fBodyGyro-meanFreq()-Z"
+  * double
+  * Fast Fourier Transformation
+  * on body gyroscope frequency mean on z-axis
+  
 * "fBodyAccMag-mean()"
+  * double
+  * Fast Fourier Transformation
+  * on body acceleration magnitude mean
+  
 * "fBodyAccMag-std()"
+  * double
+  * Fast Fourier Transformation
+  * on body acceleration magnitude standard deviation
+  
 * "fBodyAccMag-meanFreq()"
+  * double
+  * Fast Fourier Transformation
+  * on body acceleration magnitude frequency mean
+  
 * "fBodyBodyAccJerkMag-mean()"
+  * double
+  * Fast Fourier Transformation
+  * on body acceleration jerk magnitude mean
+  
 * "fBodyBodyAccJerkMag-std()"
+  * double
+  * Fast Fourier Transformation
+  * on body acceleration jerk standard deviation mean
+  
 * "fBodyBodyAccJerkMag-meanFreq()"
+
 * "fBodyBodyGyroMag-mean()"
+  * double
+  * Fast Fourier Transformation
+  * on body gyroscope magnitude mean
+  
 * "fBodyBodyGyroMag-std()"
+  * double
+  * Fast Fourier Transformation
+  * on body gyroscope magnitude standard deviation
+
 * "fBodyBodyGyroMag-meanFreq()"
+  * double
+  * Fast Fourier Transformation
+  * on body gyroscope magnitude mean frequency
+  
 * "fBodyBodyGyroJerkMag-mean()"
+  * double
+  * Fast Fourier Transformation
+  * on body gyroscope jerk magnitude mean
+  
 * "fBodyBodyGyroJerkMag-std()"
+  * double
+  * Fast Fourier Transformation
+  * on body gyroscope jerk magnitude standard deviation
+  
 * "fBodyBodyGyroJerkMag-meanFreq()"
+  * double
+  * Fast Fourier Transformation
+  * on body gyroscope jerk magnitude mean frequency
+  
+  
+## And there you have it :)
+  
