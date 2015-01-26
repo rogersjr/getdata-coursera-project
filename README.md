@@ -1,8 +1,11 @@
 # getdata-coursera-project
 Coursera's Getting and Cleaning Data Course Peer Review Project
 
+#### Please make sure to set the working directory correctly before running the script
+#### The script expects the zip file unzipped to "getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/"
+
 - First I install the dplyr package and load it
-- I set up the base sirectory based onthe unzipped file
+- I set up the base directory based on the unzipped file
 - I then load the features and activities which will be used to populate the data sets
 - I use read.table to read the data from file 
 - Then rename to have tidy column names
