@@ -84,7 +84,7 @@ meanStdSet = cbind(activity_id, activity_label, subject_id, meanStdSet)
 # aggregate by activity &  subject
 ##################################
 
-aggregateSet = aggregate(meanStdSet[,4:563],by=list(meanStdSet$activity_id, meanStdSet$subject_id), mean)
+aggregateSet = aggregate(meanStdSet[,4:82],by=list(meanStdSet$activity_id, meanStdSet$subject_id), mean)
 aggregateSet = rename(aggregateSet, activity_id = Group.1, subject_id=Group.2)
 aggregateSet = merge(activityLabels, aggregateSet, by.x = "activity_id", by.y = "activity_id")
 
