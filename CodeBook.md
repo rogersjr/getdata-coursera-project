@@ -2,178 +2,173 @@
 #### This includes activity, subject and 78 measurements using accelerometer and gyroscope
 #### The data has been summarized per subject per activity
 
-* "activity_id"
-  * integer
-  * the activity id primary key
-  * ranges from 1 to 6
-
-* "activity_label"
-  * character
-  * the activity description
-  * WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
-
-* "subject_id"
+* "subject"
   * integer
   * the subject id primary key
   * matches a specific subject in the experiment
+
+* "activity"
+  * character
+  * the activity description
+  * WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
   
-* "tBodyAcc-mean()-X"
+* "bodyAccelerationXTimeMean"
   * double
   * body acceleration mean on x-axis
   
-* "tBodyAcc-mean()-Y"
+* "bodyAccelerationYTimeMean"
   * double
   * body acceleration mean on y-axis
   
-* "tBodyAcc-mean()-Z"
+* "bodyAccelerationZTimeMean"
   * double
   * body acceleration mean on z-axis
   
-* "tBodyAcc-std()-X"
+* "bodyAccelerationXTimeStdDev"
   * double
   * body acceleration standard deviation on x-axis
   
-* "tBodyAcc-std()-Y"
+* "bodyAccelerationYTimeStdDev"
   * double
   * body acceleration standard deviation on y-axis
 
-* "tBodyAcc-std()-Z"
+* "bodyAccelerationZTimeStdDev"
   * double
   * body acceleration standard deviation on z-axis
   
-* "tGravityAcc-mean()-X"
+* "gravityAccelerationXTimeMean"
   * double
   * gravity acceleration mean on x-axis
   
-* "tGravityAcc-mean()-Y"
+* "gravityAccelerationXTimeMean"
   * double
   * gravity acceleration mean on y-axis
   
-* "tGravityAcc-mean()-Z"
+* "gravityAccelerationZTimeMean"
   * double
   * gravity acceleration mean on z-axis
   
-* "tGravityAcc-std()-X"
+* "gravityAccelerationXTimeStdDev"
   * double
   * gravity acceleration standard deviation on x-axis
   
-* "tGravityAcc-std()-Y"
+* "gravityAccelerationYTimeStdDev"
   * double
   * gravity acceleration standard deviation on y-axis
   
-* "tGravityAcc-std()-Z"
+* "gravityAccelerationZTimeStdDev"
   * double
   * gravity acceleration mean on z-axis
   
-* "tBodyAccJerk-mean()-X"
+* "bodyAccelerationJerkXTimeMean"
   * double
   * body acceleration jerk mean on x-axis
   
-* "tBodyAccJerk-mean()-Y"
+* "bodyAccelerationJerkYTimeMean"
   * double
   * body acceleration jerk mean on y-axis
   
-* "tBodyAccJerk-mean()-Z"
+* "bodyAccelerationJerkZTimeMean"
   * double
   * body acceleration jerk standard deviation on z-axis
   
-* "tBodyAccJerk-std()-X"
+* "bodyAccelerationJerkXTimeStdDev"
   * double
   * body acceleration jerk standard deviation on x-axis
   
-* "tBodyAccJerk-std()-Y"
+* "bodyAccelerationJerkYTimeStdDev"
   * double
   * body acceleration jerk standard deviation on y-axis
   
-* "tBodyAccJerk-std()-Z"
+* "bodyAccelerationJerkZTimeStdDev"
   * double
   * body acceleration jerk standard deviation on z-axis
   
-* "tBodyGyro-mean()-X"
+* "bodyGyroscopeXTimeMean"
   * double
   * body gyroscope mean on x-axis
   
-* "tBodyGyro-mean()-Y"
+* "bodyGyroscopeYTimeMean"
   * double
   * body gyroscope mean on y-axis
   
-* "tBodyGyro-mean()-Z"
+* "bodyGyroscopeZTimeMean"
   * double
   * body gyroscope mean on z-axis
   
-* "tBodyGyro-std()-X"
+* "bodyGyroscopeXTimeStdDev"
   * double
   * body gyroscope standard deviation on x-axis
   
-* "tBodyGyro-std()-Y"
+* "bodyGyroscopeYTimeStdDev"
   * double
   * body gyroscope standard deviation on y-axis
   
-* "tBodyGyro-std()-Z"
+* "bodyGyroscopeZTimeStdDev"
   * double
   * body gyroscope standard deviation on z-axis
   
-* "tBodyGyroJerk-mean()-X"
+* "bodyGyroscopeJerkXTimeMean"
   * double
   * body gyroscope jerk mean on x-axis
   
-* "tBodyGyroJerk-mean()-Y"
+* "bodyGyroscopeJerkYTimeMean"
   * double
   * body gyroscope jerk mean on y-axis
   
-* "tBodyGyroJerk-mean()-Z"
+* "bodyGyroscopeJerkZTimeMean"
   * double
   * body gyroscope jerk mean on z-axis
   
-* "tBodyGyroJerk-std()-X"
+* "bodyGyroscopeJerkXTimeStdDev"
   * double
   * body gyroscope jerk standard deviation on x-axis
   
-* "tBodyGyroJerk-std()-Y"
+* "bodyGyroscopeJerkYTimeStdDev"
   * double
   * body gyroscope jerk standard deviation on y-axis
   
-* "tBodyGyroJerk-std()-Z"
+* "bodyGyroscopeJerkZTimeStdDev"
   * double
   * body gyroscope jerk standard deviation on z-axis
   
-* "tBodyAccMag-mean()"
+* "bodyAccelerationMagnitudeTimeMean"
   * double
   * body acceleration magnitude mean
   
-* "tBodyAccMag-std()"
+* "bodyAccelerationMagnitudeTimeStdDev"
   * double
   * body acceleration magnitude standard deviation
   
-* "tGravityAccMag-mean()"
+* "gravityAccelerationMagnitudeTimeMean"
   * double
   * gravity acceleration magnitude mean
   
-* "tGravityAccMag-std()"
+* "gravityAccelerationMagnitudeTimeStdDev"
   * double
   * gravity acceleration magnitude standard deviation
   
-* "tBodyAccJerkMag-mean()"
+* "bodyAccelerationJerkMagnitudeTimeMean"
   * double
   * body acceleration jerk magnitude mean
   
-* "tBodyAccJerkMag-std()"
+* "bodyAccelerationJerkMagnitudeTimeStdDev"
   * double
   * body acceleration jerk magnitude standard deviation
   
-* "tBodyGyroMag-mean()"
+* "bodyGyroscopeMagnitudeTimeMean"
   * double
   * body gyroscope magnitude mean
   
-* "tBodyGyroMag-std()"
+* "bodyGyroscopeMagnitudeTimeStdDev"
   * double
   * body gyroscope magnitude standard deviation
   
-* "tBodyGyroJerkMag-mean()"
+* "bodyGyroscopeJerkMagnitudeTimeMean"
   * double
   * body gyroscope jerk magnitude mean
   
-* "tBodyGyroJerkMag-std()"
+* "bodyGyroscopeJerkMagnitudeTimeStdDev"
   * double
   * body gyroscope magnitude standard deviation
   
@@ -207,17 +202,17 @@
   * Fast Fourier Transformation
   * on body acceleration standard deviation on z-axis
   
-* "fBodyAcc-meanFreq()-X"
+* "bodyAccelerationJerkXFrequencyMean"
   * double
   * Fast Fourier Transformation
   * on body acceleration frequency mean on x-axis
   
-* "fBodyAcc-meanFreq()-Y"
+* "bodyAccelerationYFrequencyMean"
   * double
   * Fast Fourier Transformation
   * on body acceleration frequency mean on y-axis
   
-* "fBodyAcc-meanFreq()-Z"
+* "bodyAccelerationZFrequencyMean"
   * double
   * Fast Fourier Transformation
   * on body acceleration frequency mean on z-axis
@@ -252,7 +247,7 @@
   * Fast Fourier Transformation
   * on body acceleration jerk standard deviation on z-axis
   
-* "fBodyAccJerk-meanFreq()-X"
+* "bodyAccelerationJerkXFrequencyMean"
   * double
   * Fast Fourier Transformation
   * on body acceleration jerk frequency mean on x-axis
@@ -349,7 +344,7 @@
   * Fast Fourier Transformation
   * on body gyroscope magnitude standard deviation
 
-* "fBodyBodyGyroMag-meanFreq()"
+* "bodyGyroscopeMagnitudeFrequencyMean"
   * double
   * Fast Fourier Transformation
   * on body gyroscope magnitude mean frequency
@@ -359,16 +354,16 @@
   * Fast Fourier Transformation
   * on body gyroscope jerk magnitude mean
   
-* "fBodyBodyGyroJerkMag-std()"
+* "bodyGyroscopeJerkMagnitudeFrequencyStdDev"
   * double
   * Fast Fourier Transformation
   * on body gyroscope jerk magnitude standard deviation
   
-* "fBodyBodyGyroJerkMag-meanFreq()"
+* "bodyGyroscopeJerkMagnitudeFrequencyMean"
   * double
   * Fast Fourier Transformation
   * on body gyroscope jerk magnitude mean frequency
   
   
-## And there you have it :)
+
   
