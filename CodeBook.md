@@ -2,6 +2,7 @@
 #### This includes activity, subject and 78 measurements using accelerometer and gyroscope
 #### The data has been summarized per subject per activity
 
+
 * "subject"
   * integer
   * the subject id primary key
