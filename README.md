@@ -4,13 +4,9 @@ Coursera's Getting and Cleaning Data Course Peer Review Project
 #### Please make sure to set the working directory correctly before running the script
 #### The script expects the zip file unzipped to "getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/"
 
-- First I install the dplyr package and load it
-CodeBook.md
+CodeBook.md Describes the variables in the output file.
 
-Describes the variables in the output file.
-run_analysis.R
-
-R source code to perform the data cleaning and generate the output file.
+run_analysis.R R source code to perform the data cleaning and generate the output file.
 Assumptions:
 
 The raw data is assumed to be available in the "UCI HAR Dataset" subdirectory of the working directory.
